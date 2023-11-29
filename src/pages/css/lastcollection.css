@@ -1,0 +1,72 @@
+/* CSS for Latest Collection */
+.latest-collection {
+  padding: 60px;
+  background-color: #f5f5f5;
+}
+
+.product-category {
+  margin: 10px 0;
+}
+
+.product-category h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-category .products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+.product-cards {
+  flex-basis: calc(25% - 20px);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  height: 35rem;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.product-cards img {
+  max-width: 100%;
+  width: 50vh;
+  height: 50vh;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-cards img:hover {
+  transform: scale(1.05);
+}
+.product-cards a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.product-cards h3 {
+  font-size: 1rem;
+  margin: 30px 0;
+  color: #333;
+}
+
+.product-cards p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.new-price {
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 10px;
+}
+
+.old-price {
+  color: #888;
+  text-decoration: line-through;
+  margin-top: 5px;
+}
